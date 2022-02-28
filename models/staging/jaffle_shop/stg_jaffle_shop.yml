@@ -34,4 +34,6 @@ models:
           - relationships:
               to: ref('stg_customers')
               field: customer_id
+      - name: order_date
+        description: The date on which this order was placed.
         
